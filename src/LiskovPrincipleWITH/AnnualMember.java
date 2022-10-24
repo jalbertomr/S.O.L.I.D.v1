@@ -19,4 +19,9 @@ public class AnnualMember extends Member{
     public void addToDatabase() {
         System.out.println("Added the Annual member to the Database");
     }
+
+    @Override
+    public void makeBooking() {
+        System.out.println("Court booked for Annual Member");
+    }
 }

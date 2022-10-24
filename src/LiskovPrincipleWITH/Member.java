@@ -2,7 +2,7 @@ package LiskovPrincipleWITH;
 
 import java.util.Date;
 
-abstract class Member {
+class Member implements IDatabaseInference, IBookingInference{
     String name;
     String memberType;
     Date mStartDate;
@@ -12,5 +12,7 @@ abstract class Member {
         this.name = name;
     }
 
-    public abstract void addToDatabase();
+    public void addToDatabase(){};
+
+    public void makeBooking(){};
 }

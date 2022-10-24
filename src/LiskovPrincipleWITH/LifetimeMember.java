@@ -20,4 +20,9 @@ public class LifetimeMember extends Member {
     public void addToDatabase() {
         System.out.println("Added the Lifetime member info to DB");
     }
+
+    @Override
+    public void makeBooking() {
+        System.out.println("Court booked for Lifetime Member");
+    }
 }
