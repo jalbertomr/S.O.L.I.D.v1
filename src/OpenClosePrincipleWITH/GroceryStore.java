@@ -13,10 +13,11 @@ public class GroceryStore {
     public void calcTotalInventory(){
         double total = 0;
 
-        for ( var  product: products){  //InventoryBase -> var java 11
+        for ( InventoryBase  product: products){
             System.out.println(product.getProduct().toString());
             total +=  product.getProduct().getPrice();
         }
+
         System.out.println("Total de Inventario: " + total);
     }
 }
