@@ -1,4 +1,4 @@
-package ResponsabilitySegregationPrincipleNOT;
+package SingleResponsabilityPrincipleNOT;
 
 public class Employee {
     private String name;

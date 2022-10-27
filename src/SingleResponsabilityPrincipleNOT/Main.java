@@ -1,4 +1,4 @@
-package ResponsabilitySegregationPrincipleNOT;
+package SingleResponsabilityPrincipleNOT;
 
 public class Main {
     public static void main(String[] args) {

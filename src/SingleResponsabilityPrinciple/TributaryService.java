@@ -1,6 +1,4 @@
-package ResponsabilitySegregationPrinciple;
-
-import java.io.Console;
+package SingleResponsabilityPrinciple;
 
 public class TributaryService {
 

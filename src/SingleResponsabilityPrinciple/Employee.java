@@ -1,4 +1,4 @@
-package ResponsabilitySegregationPrinciple;
+package SingleResponsabilityPrinciple;
 
 public class Employee {
     private String name;
