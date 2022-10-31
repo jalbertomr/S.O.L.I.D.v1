@@ -37,6 +37,13 @@ public class Employee {
         this.age = age;
     }
 
+    public double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
 
     @Override
     public String toString() {
