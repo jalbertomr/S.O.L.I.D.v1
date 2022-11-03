@@ -1,4 +1,4 @@
-package OpenClosePrincipleWITH;
+package OpenClosePrinciple1Refactor;
 
 abstract class InventoryBase {
     protected Product product;

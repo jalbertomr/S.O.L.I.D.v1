@@ -1,4 +1,4 @@
-package OpenClosePrincipleWITH;
+package OpenClosePrinciple1Refactor;
 
 public class InventoryCategory1 extends InventoryBase {
     public InventoryCategory1(Product product) {

@@ -18,7 +18,7 @@ public class Association {
         // Person <>------------<> Person      Not used  BiAggregation
         // siamesA ◄►-----------◄► siamesB     Not used  BiComposition
 
-        // Flight ----------- Plane     bidirectional association, but is most an Aggregation in "use" but a Opposite Composition in Life
+        // Flight ----------- Plane     bidirectional association, but is most an Aggregation in "use" but an Opposite Composition in Life
         // Flight <>--------- Plane     Flight "uses-a" Plane, If the Flight dies the Plane Not, If the Plane die the Flight die
         // Flight <>-------◄► Plane     Flight "uses-a" Plane, Plane "has-a" Flight, Flight dies the plane Not, Plane dies then Flight dies.
 

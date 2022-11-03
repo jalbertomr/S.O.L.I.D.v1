@@ -1,4 +1,4 @@
-package OpenClosePrincipleWITH;
+package OpenClosePrinciple1;
 
 public class Product {
     private String name;
