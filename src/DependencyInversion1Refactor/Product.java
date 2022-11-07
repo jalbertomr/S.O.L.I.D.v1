@@ -1,4 +1,4 @@
-package DependencyInversion;
+package DependencyInversion1Refactor;
 
 public class Product {
     private String name;

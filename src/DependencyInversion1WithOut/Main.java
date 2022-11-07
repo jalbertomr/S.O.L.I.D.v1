@@ -1,4 +1,4 @@
-package DependencyInversion;
+package DependencyInversion1WithOut;
 
 public class Main {
     private static Object Container;
@@ -24,6 +24,9 @@ public class Main {
 
         total = auditor.calcTotalFoods();
         System.out.println("auditor total: " + total);
+
+        //Auditor auditor1 = new Auditor(Container);  // Auditor does not accept Container
+        //Auditor auditor2 = new Auditor(Warehouse); // Auditor does not accept WareHouse;
     }
 
 }

@@ -1,4 +1,4 @@
-package DependencyInversionRefactor;
+package DependencyInversion1Refactor;
 
 import java.util.concurrent.atomic.AtomicReference;
 

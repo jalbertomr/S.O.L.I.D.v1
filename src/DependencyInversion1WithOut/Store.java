@@ -1,12 +1,12 @@
-package DependencyInversion;
+package DependencyInversion1WithOut;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Container {
+public class Store {
     private List<Product> inventory ;
 
-    public Container() {
+    public Store() {
         this.inventory = new ArrayList<>();
     }
 
@@ -18,5 +18,4 @@ public class Container {
     public void addProduct(Product product){
         inventory.add( product);
     }
-
 }

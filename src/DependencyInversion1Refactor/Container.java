@@ -1,14 +1,14 @@
-package DependencyInversionRefactor;
+package DependencyInversion1Refactor;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Warehouse implements IAuditable {
+public class Container implements IAuditable {
 
     // inventory not available to the outside world :)
     private List<Product> inventory ;
 
-    public Warehouse() {
+    public Container() {
         this.inventory = new ArrayList<>();
     }
 

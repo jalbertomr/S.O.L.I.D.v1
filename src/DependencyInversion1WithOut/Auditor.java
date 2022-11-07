@@ -1,4 +1,4 @@
-package DependencyInversion;
+package DependencyInversion1WithOut;
 
 public class Auditor {
     private Store store;

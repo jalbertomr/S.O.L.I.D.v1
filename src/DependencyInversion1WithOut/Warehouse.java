@@ -1,4 +1,4 @@
-package DependencyInversion;
+package DependencyInversion1WithOut;
 
 import java.util.ArrayList;
 import java.util.List;
