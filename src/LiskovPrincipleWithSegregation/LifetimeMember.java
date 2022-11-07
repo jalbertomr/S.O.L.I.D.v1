@@ -1,4 +1,4 @@
-package LiskovPrincipleWITH;
+package LiskovPrincipleWithSegregation;
 
 import java.util.Calendar;
 import java.util.Date;

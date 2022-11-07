@@ -1,8 +1,8 @@
-package LiskovPrincipleWITH;
+package LiskovPrinciple;
 
 import java.util.Date;
 
-class Member implements IDatabaseInference, IBookingInference{
+public abstract class Member {
     String name;
     String memberType;
     Date mStartDate;
@@ -12,7 +12,7 @@ class Member implements IDatabaseInference, IBookingInference{
         this.name = name;
     }
 
-    public void addToDatabase(){};
+    public abstract void addToDatabase();
 
-    public void makeBooking(){};
+    public abstract void doBooking();
 }
