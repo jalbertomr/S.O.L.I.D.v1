@@ -1,5 +1,5 @@
 # S.O.L.I.D.   Principles samples
-# Associations
+
 # Some optimizations (tips) on comparation code 
 A walk through the SOLID Principles
 
