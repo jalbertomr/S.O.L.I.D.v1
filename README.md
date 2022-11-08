@@ -9,3 +9,4 @@ A walk through the SOLID Principles
 - 4. Interface Segregation Principle
 - 5. Dependency Inversion Principle
 
+Many implemantations of the SOLID principles, may be some one of this are not the best approach of the principle, so here are many examples of this principles. under your observancy and criticism in order to look for the best approach. 
